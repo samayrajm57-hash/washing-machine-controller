@@ -1,4 +1,4 @@
-# Washing Machine Controller (Verilog HDL)
+<img width="1913" height="917" alt="image" src="https://github.com/user-attachments/assets/9dd119c9-6096-4499-9b25-e0891f1a259e" /># Washing Machine Controller (Verilog HDL)
 
 ![Language](https://img.shields.io/badge/HDL-Verilog-blue)
 ![Type](https://img.shields.io/badge/Design-FSM%20%2B%20Datapath-green)
@@ -52,19 +52,14 @@ control/datapath split.
 
 ```
 washing-machine-controller/
-├── rtl/
-│   ├── timer.v                 # reusable down-counter (datapath)
-│   ├── wm_fsm.v                # Moore control FSM
-│   └── washing_machine_top.v   # top level (FSM + timer)
-├── tb/
-│   └── tb_washing_machine.v    # self-checking testbench
-├── docs/
-│   └── washing_machine_controller_guide.md   # full design + interview guide
-├── .gitignore
-├── LICENSE
-└── README.md
+|── timer.v                 # reusable down-counter (datapath)
+|── wm_fsm.v                # Moore control FSM
+|── washing_machine_top.v   # top level (FSM + timer)
+|── tb_washing_machine.v    # self-checking testbench
+|── .gitignore
+|── LICENSE
+|── README.md
 ```
-
 ---
 
 ## How to Run
@@ -117,13 +112,12 @@ TEST3 PASS: reset forced IDLE.
 
 Pause/resume, multiple wash modes, water-level sensor, fault detection,
 child lock, door lock during run, buzzer, LCD display, and power-failure
-recovery — design notes for each are in [`docs/`](docs/washing_machine_controller_guide.md).
 
 ---
 
 ## Author
 
-*Your Name* — Electrical Engineering · [GitHub](https://github.com/your-username)
+*SAMAY RAJ MEENA* — Electrical Engineering · [GitHub](https://github.com/samayrajm57-hash)
 
 ## License
 
