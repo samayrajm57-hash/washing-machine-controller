@@ -1,0 +1,18 @@
+# Simulation outputs / artifacts
+*.vcd
+*.vvp
+*.out
+a.out
+wm_sim
+work/
+*.log
+*.jou
+*.wdb
+xsim.dir/
+.Xil/
+
+# Editor / OS junk
+.vscode/
+.idea/
+*.swp
+.DS_Store
